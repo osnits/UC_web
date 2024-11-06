@@ -11,13 +11,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-  <!--  <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
         <div class="container">
-          <a class="navbar-brand" style="font-size: 1rem;" href="#">UCORRELATE</a>
+          <a class="navbar-brand" style="font-size: 1rem;" href="#">Ucorrelate</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,14 +33,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" style="font-size: 1rem;" aria-current="page" href="#">About Us</a>
+                <a class="nav-link" style="font-size: 1rem;" aria-current="page" href="#who_we_are">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  style="font-size: 1rem;" href="#">What We Build</a>
+                <a class="nav-link"  style="font-size: 1rem;" href="#what_we_build">What We Build</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Let Us Cooperate</a>
+                <a class="nav-link" href="#what_we_offer">What We Offer</a>
               </li>
 
 
@@ -53,133 +53,197 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  AI + Domain
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
+                  <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: orange;"> B2B </span></li>
+                  <li><a class="dropdown-item" href="#ai_hr">AI + HR</a></li>
+                  <li><a class="dropdown-item" href="#ai_legal">AI + Legal</a></li>
+                  <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: green;"> B2C </span></li>
+                  <li><a class="dropdown-item" href="#ai_consumer">AI + Consumer</a></li>
+                  <li><a class="dropdown-item" href="#ai_sport">AI + Sport</a></li>
+                  <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: red;"> War </span></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#ai_war">AI + War</a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+  
+            </li><a href="https://www.linkedin.com/company/80727441/" class="btn btn-primary">
+  <i class="fab fa-linkedin"></i> Follow Us </a></li>
+</a>
           </div>
         </div>
       </nav>
     </header>
     <main class="my-5">
       <div class="container">
+        
+        <div class="row my-5"></div>
         <div class="row">
-
 
           
           <div class="col-md-7">
             <img
-              src="https://picsum.photos/id/233/600/400"
+              src="/images/main__robohead.png"
               alt=""
               class="img-fluid"
             />
           </div>
-
+          
           <div class="col-md-5">
-            <h1 class="mt-5">UCorrelate</h1>
-            <p class="mt-4 ms-1">
-              We are a AI product company that builds the future. 
-              We take a human problem or where a flowless UX hits some barrier. 
-              We then amass big data, create hypothesis space, and 
-              through the experimantal R&D, data science, meachine learning engineering, strong prototyping,
-              and our product and business acumen, build a solution that we daily nurture and refactor 
-              until it becomes an indenspensible part of human life.   
+            <div>
+              <img src="/images/logo.png" alt="">
+            </div>
+    
+            <p class="ms-1">
+
+              <ul>
+                <li class="my-2">   We are an R&D product company that builds the future with AI. 
+                  We closely watch product signals that most of humans do not even know to exist.</li>
+                <li class="my-2"> We work with real human problems, inertia or with situations where a flawless UX hits some barrier. </li>
+                <li class="my-2"> We deal with big data, create hypothesis space, and 
+                  through the experimental R&D, data science, machine learning engineering, strong prototyping,
+                  and product and business acumen, build solutions that we daily nurture and refactor 
+                  until they become an indispensable part of human life.</li>
+              </ul>
+
+
+              
             </p>
-            <button type="button" class="btn btn-primary mt-3">
-              The future we create
+            <button type="button" class="btn btn-primary mt-3 mx-auto d-block" onclick="location.href='#what_we_build'">
+              The Future We Create
             </button>
           </div>
         
+        <div class="row my-5" id="who_we_are"></div>
+
+        <div class="row my-5">
+          <h1> Who We Are </h1>
         </div>
+
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <p class="ms-1">
+              We combine data science, business acumen, and pragmatic engineering, to build great products. 
+              We parametrize problem and solution space. Our R&D approach allows us to build solutions that have potential to reshape industries. 
+
+              We excel at R&D and are in love with science-based experimentation. 
+              
+            </p>
+              </div>
+            <div class="col-7">
+                <img src="/images/venn.png" class="img w-100" alt="...">
+            </div>
+
+            <div class="row my-5" id="what_we_build"></div>
+
+            <div class="row my-5">
+              <h1> What We Build </h1>
+            </div>
+    
+            </div>
+            <div class="row">
+
+                <div class="col-7">
+                    <img src="/images/diagram_products.png" class="img w-100" alt="...">
+                </div>
+
+                <div class="col-5">
+                  <p class="ms-1">
+                    <ul>
+                      <li class="my-2">We build both B2B and B2C products with AI. A dive into one of them makes us stronger in the other.</li>
+                      <li class="my-2">As responsible human-beings, we work on an AI product that helps Ukrainians detect the enemy propaganda in social medias.</li>
+                      <li class="my-2">In B2B, we want to help businesses around the world to reduce their expenses on certain processes so that they can use these saved resources for even better goals. </li>
+                      <li class="my-2">In B2C, we deeply know that people deal with a lot of inertia on a daily basis. We want to at least decrease inertia magnitude in their most beloved spheres of life. </li>
+                    </ul>
+                  
+      
+                    
+                  </p>
+                    </div>
+
         <div class="row my-5">
           <div class="col">
-            <div class="bg-secondary text-white my-3 py-3 card text-center">
-              <div class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-                facere.
-              </div>
             </div>
-          </div>
-        </div>
+           </div>
+            
         
-        <div class="row">
+        <div class="row" id="ai_hr">
           <div class="col">
           <h1>Our Products <span class="badge text-bg-primary" style="background-color: orange;"> B2B </span></h1>
         </div>
         </div>
 
+      
         <div class="row my-5">
-          <div class="col">
+          <div class="col-8">
               <div class="card">
                 <img
-                  src="https://picsum.photos/id/200/320/200"
+                  src="/images/ai+hr.png"
                   class="card-img-top"
-                  alt="..."
+                  alt="..." style="width: 50%;"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">AI + Human Resources</h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    <ul>
+                      <li>Domain: B2B, Human Resources</li>
+                      <li>Solution: HRM system with AI, with focus on certain hiring processes where a human bias is present or a lot of human efforts spent </li>
+                      <li>Planned Outcome: at least 30% decrease of HR expenses in a large corporate </li>
+                      <li>Stage: Prototype </li>
+                    </ul>
                   </p>
 
                   <div class="">
                     <a href="#"
-                      ><button type="button" class="btn btn-primary">
+                      ><button type="button" class="btn btn-primary" id="ai_legal">
                         Read more
                       </button></a
                     >
                   </div>
                 </div>
               </div>
-
-              <div class="col">
-              <div class="card ms-5">
-                <img
-                  src="https://picsum.photos/id/201/320/200"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-
-                  <div class="">
-                    <a href="#"
-                      ><button type="button" class="btn btn-primary">
-                        Read more
-                      </button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
             </div>
           </div>
+          
+              
+            <div class="row my-5">
+                <div class="col-8">
+                    <div class="card">
+                      <img
+                        src="/images/ai+legal.png"
+                        class="card-img-top"
+                        alt="..." style="width: 50%;"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">AI + Legal</h5>
+                        <p class="card-text">
+                          <ul>
+                            <ul>
+                              <li>Domain: B2B, Legal</li>
+                              <li>Solution: in-house Legal Department  </li>
+                              <li>Planned Outcome: no need in legal personal in certain processes </li>
+                              <li>Stage: Product Strategy </li>
+                            </ul>
+                          </ul>
+                        </p>
+      
+                        <div class="">
+                          <a href="#"
+                            ><button type="button" class="btn btn-primary">
+                              Read more
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        <div class="row" id="ai_consumer"></div>     
 
         <div class="row">
           <div class="col">
@@ -187,18 +251,145 @@
         </div>
         </div>
 
-        <div class="row">
-          <div class="col">
+        <div class="row my-5">
+          <div class="col-8">
+              <div class="card">
+                <img
+                  src="/images/ai+consumer.png"
+                  class="card-img-top"
+                  alt="..." style="width: 50%;"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">AI + Consumer</h5>
+                  <p class="card-text">
+                      <ul>
+                        <li>Domain: B2C CRM</li>
+                        <li>Solution: CRM with automated client-provider relationships </li>
+                        <li>Planned Outcome: up to 50% of certain processes in CRM automated by ML </li>
+                        <li>Stage: Prototype </li>
+                      </ul>
+                  </p>
+
+                  <div class="">
+                    <a href="#"
+                      ><button type="button" class="btn btn-primary" id="ai_sport">
+                        Read more
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          
+              
+            <div class="row my-5">
+                <div class="col-8">
+                    <div class="card">
+                      <img
+                        src="/images/ai+sport.png"
+                        class="card-img-top"
+                        alt="..." style="width: 50%;"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">AI + Sport</h5>
+                        <p class="card-text">
+                          <ul>
+                            <li>Domain: Health/Sport </li>
+                            <li>Solution: SAAS with AI agent planner </li>
+                            <li>Planned Outcome: no need in personal couching online </li>
+                            <li>Stage: Product Strategy </li>
+                          </ul>
+                        </p>
+      
+                        <div class="">
+                          <a href="#"
+                            ><button type="button" class="btn btn-primary" id="ai_war">
+                              Read more
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
  
+
+                <div class="row">
+                  <div class="col">
+                  <h1>Our Products <span class="badge text-bg-primary" style="background-color: red;"> AI+WAR </span></h1>
+                </div>
+                </div>
         
-        <div class="text-center">
-          <h2>Get in touch</h2>
-          <p class="lead">Questions? Do not hesitate to contact us.</p>
+                <div class="row my-5">
+                  <div class="col-8">
+                      <div class="card">
+                        <img
+                          src="/images/ai+war.png"
+                          class="card-img-top"
+                          alt="..." style="width: 50%;"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">AI + War</h5>
+                          <p class="card-text">
+                            <ul>
+                              <li>Domain: Fake news, social media </li>
+                              <li>Solution: Real-time detection and analysis of disinformation in social media </li>
+                              <li>Planned Outcome: Accurate scalable detection of major news threats or propaganda </li>
+                              <li>Stage: Prototype </li>
+                            </ul>
+                          </p>
+        
+                          <div class="">
+                            <a href="#"
+                              ><button type="button" class="btn btn-primary">
+                                Read more
+                              </button></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>         
+      
+      
+      
+      
+      
+      <div class="row my-5" id="what_we_offer"></div>
+
+      <div class="row my-5">
+        <h1> Let Us Cooperate to Build the Future </h1>
+      </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-7">
+          <img src="/images/cooperate.png" class="img w-100" alt="...">
+      </div>
+    
+        <div class="col-5">
+          <p class="ms-1">
+            Get in touch with us, especially if you are one of the following:
+            <ul>
+              <li>engineer or a team of engineers who want to build their own great products</li>
+              <li>you have a product idea, prototype, MVP that you believe in and you want to develop it further</li>
+              <li>data scientist, PhD, or just a smart person who wants to build things</li>
+              <li>a STEM student who is passionate about applied engineering, with a dream to build his/her product in the future</li>
+              <li>VC, angels</li>
+            </ul> 
+          </p>
         </div>
-        <div class="row justify-content-center my-5">
+
+
+
+        <div class="text-center my-5">
+          <h2>Get in touch</h2>
+          <p class="lead"> Do not hesitate to contact us here or <a href="https://www.linkedin.com/company/80727441/" class="btn btn-primary">
+            <i class="fab fa-linkedin"></i> LinkedIn </a></p>
+        </div>
+        <div class="row justify-content-center">
           <div class="col-lg-6">
             <form action="">
               <label for="email" class="form-label">Email:</label>
@@ -212,15 +403,17 @@
                 <input
                   type="name"
                   id="name"
-                  placeholder="e.g. Dawid"
+                  placeholder="e.g. David"
                   class="form-control"
                 />
                 <label for="name" class="form-label">Name:</label>
               </div>
               <label for="subject" class="form=label">Subject</label>
               <select name="subject" id="subject" class="form-select">
-                <option value="pricing">Pricing</option>
-                <option value="technical" selected>Technical question</option>
+                <option value="domains">Interest in one of our domains or products</option>
+                <option value="technical">VC and angels investment</option>
+                <option value="pm">Product development</option>
+                <option value="pm">AI/ML engineering</option>
                 <option value="other">Other</option>
               </select>
 
@@ -237,12 +430,13 @@
               </div>
 
               <div class="text-center">
-                <button type="submit" class="btn btn-primary">Send!</button>
+                <button type="submit" class="btn btn-primary">Send</button>
               </div>
             </form>
           </div>
         </div>
       </div>
+  
     </main>
     
     
@@ -251,8 +445,8 @@
       <div class="container">
         <span class="text-muted"
           >Copyrights
-          <a href="https://mdbootstrap.com">MDBootstrap.com</a></span
-        >
+          <a href="https://ucorrelate.com">Ucorrelate</a> 2023-2030 </span
+        > 
       </div>
     </footer>
     <script
