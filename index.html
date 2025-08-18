@@ -12,6 +12,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+     <link rel="icon" type="image/png" href="/images/uc_logo_favicon.png">
   </head>
   <body>
     <header>
@@ -53,19 +55,18 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  AI + Domain
+                  Our Domains
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: orange;"> B2B </span></li>
-                  <li><a class="dropdown-item" href="#ai_hr">AI + HR</a></li>
-                  <li><a class="dropdown-item" href="#ai_legal">AI + Legal</a></li>
+                  <li><a class="dropdown-item" href="#ai_hr">AI + Hiring</a></li>
+                  <li><a class="dropdown-item" href="#ai_hr">AI + Investment Banking</a></li>
+                  <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: rgb(16, 214, 211);"> Healthcare Vertical </span></li>
+                  <li><a class="dropdown-item" href="#health_jump">Home Health and Care</a></li>
+                  <li><a class="dropdown-item" href="#HOME_HEALTH">Online Mental Health</a></li>
+                  <li><a class="dropdown-item" href="#HEALTH_MARKETPLACE">Healthcare Marketplace</a></li>
                   <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: green;"> B2C </span></li>
-                  <li><a class="dropdown-item" href="#ai_consumer">AI + Consumer</a></li>
-                  <li><a class="dropdown-item" href="#ai_sport">AI + Sport</a></li>
-                  <li><hr class="dropdown-divider" /><span class="badge text-bg-primary" style="background-color: red;"> War </span></li>
-                  <li>
-                    <a class="dropdown-item" href="#ai_war">AI + War</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#ai_consumer">AI + Sport</a></li>
                 </ul>
               </li>
             </ul>
@@ -81,7 +82,8 @@
       <div class="container">
           
           <div class="row my-5"></div>
-          <div class="row">
+          
+          <div class="row" id="HEAD_AND_UC">
 
             
             <div class="col-md-7">
@@ -100,12 +102,12 @@
               <p class="ms-1">
 
                 <ul>
-                  <li class="my-2">   We are an R&D product company that builds the future with AI. 
+                  <li class="my-2">   We are an R&D product company that builds the future. 
                     We closely watch product signals that most of humans do not even know to exist.</li>
                   <li class="my-2"> We work with real human problems, inertia or with situations where a flawless UX hits some barrier. </li>
                   <li class="my-2"> We deal with big data, create hypothesis space, and 
                     through the experimental R&D, data science, machine learning engineering, strong prototyping,
-                    and product and business acumen, build solutions that we daily nurture and refactor 
+                    and product/business acumen, build solutions that we daily nurture and refactor 
                     until they become an indispensable part of human life.</li>
                 </ul>
 
@@ -124,7 +126,8 @@
           </div>
 
           </div>
-          <div class="row">
+
+          <div class="row" id="WHO_WE_ARE">
             <div class="col-md-5">
               <p class="ms-1">
                 We combine data science, business acumen, and pragmatic engineering, to build great products. 
@@ -140,13 +143,14 @@
           </div>
         
 
-              <div class="row my-5" id="what_we_build"></div>
+              
+          <div class="row my-5" id="what_we_build"></div>
 
-              <div class="row my-5">
+            <div class="row my-5">
                 <h1> What We Build </h1>
-              </div>
+            </div>
     
-              <div class="row">
+            <div class="row" id="WHAT_WE_BUILD_ROW">
 
                   <div class="col-md-7">
                       <img src="/images/diagram_products.png" class="img w-100" alt="...">
@@ -155,14 +159,15 @@
                   <div class="col-md-5">
                     <p class="ms-1">
                       <ul>
-                        <li class="my-2">We build both B2B and B2C products with AI. A dive into one of them makes us stronger in the other.</li>
-                        <li class="my-2">As responsible human-beings, we work on an AI product that helps Ukrainians detect the enemy propaganda in social medias.</li>
-                        <li class="my-2">In B2B, we want to help businesses around the world to reduce their expenses on certain processes so that they can use these saved resources for even better goals. </li>
+                        <li class="my-2">We build both B2B and B2C products, including AI. A dive into one of them makes us stronger in the other.</li>
+                        <li class="my-2">As responsible human-beings, we share our R&D results if they can make us all stronger.</li>
+                        <li class="my-2">In B2B, we want to help businesses around the world to reduce their expenses at certain processes so that they can use these saved resources for even better goals. </li>
                         <li class="my-2">In B2C, we deeply know that people deal with a lot of inertia on a daily basis. We want to at least decrease inertia magnitude in their most beloved spheres of life. </li>
+                        <li class="my-2">We also focus on healthcare domain, in particular on the increasing number of aged population and mental health. </li>
                       </ul> 
                     </p>
                   </div>
-              </div>
+            </div>
 
           <div class="row my-5">
             <div class="col">
@@ -177,7 +182,7 @@
           </div>
 
         
-          <div class="row my-5">
+          <div class="row my-5" id="HR_PRODUCT">
             <div class="col-8">
                 <div class="card">
                   <img
@@ -186,19 +191,19 @@
                     alt="..." style="width: 50%;"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">AI + Human Resources</h5>
+                    <h5 class="card-title">AI + Hiring</h5>
                     <p class="card-text">
                       <ul>
-                        <li>Domain: B2B, Human Resources</li>
-                        <li>Solution: HRM system with AI, with focus on certain hiring processes where a human bias is present or a lot of human efforts spent </li>
-                        <li>Planned Outcome: at least 30% decrease of HR expenses in a large corporate </li>
+                        <li>Domain: B2B, HR, Hiring</li>
+                        <li>Solution: HRM system with AI that has a proprietary algorithm that facilitates hiring </li>
+                        <li>Planned Outcome: No human bias in hiring, at least 30% decrease of HR expenses in a large corporate in hiring </li>
                         <li>Stage: Prototype </li>
                       </ul>
                     </p>
 
                     <div class="">
                       <a href="#"
-                        ><button type="button" class="btn btn-primary" id="ai_legal">
+                        ><button type="button" class="btn btn-primary" id="ai_legal" hidden>
                           Learn more
                         </button></a
                       >
@@ -206,33 +211,33 @@
                   </div>
                 </div>
               </div>
-            </div>
+          </div>
             
                 
-              <div class="row my-5">
+          <div class="row my-5" id="IB_PRODUCT">
                   <div class="col-8">
                       <div class="card">
                         <img
-                          src="/images/ai+legal.png"
+                          src="/images/ai+ib.png"
                           class="card-img-top"
                           alt="..." style="width: 50%;"
                         />
                         <div class="card-body">
-                          <h5 class="card-title">AI + Legal</h5>
+                          <h5 class="card-title">AI + Investment Banking</h5>
                           <p class="card-text">
                             <ul>
                               <ul>
-                                <li>Domain: B2B, Legal</li>
-                                <li>Solution: in-house Legal Department  </li>
-                                <li>Planned Outcome: no need in legal personal in certain processes </li>
-                                <li>Stage: Product Strategy </li>
+                                <li>Domain: B2B, Investment Banking</li>
+                                <li>Solution: Investment Banking specialist </li>
+                                <li>Planned Outcome: originates/executes IB functionality </li>
+                                <li>Stage: Prototype </li>
                               </ul>
                             </ul>
                           </p>
         
                           <div class="">
                             <a href="#"
-                              ><button type="button" class="btn btn-primary">
+                              ><button type="button" class="btn btn-primary" hidden>
                                 Lear more
                               </button></a
                             >
@@ -240,8 +245,111 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+          </div>
 
+          
+          <div class="row" id="health_jump">
+                    <div class="col">
+                    <h1>Our Products <span class="badge text-bg-primary" style="background-color: rgb(16, 214, 211);"> Healthcare Vertical </span></h1>
+                  </div>
+          </div>
+          
+          <div class="row my-5" id="HOME_HEALTH">
+                    <div class="col-8">
+                        <div class="card">
+                          <img
+                            src="/images/home_health.png"
+                            class="card-img-top"
+                            alt="..." style="width: 50%;"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Home Health and Care</h5>
+                            <p class="card-text">
+                              <ul>
+                                <li>Domain: Healthcare </li>
+                                <li>Solution: Home Health and Care services aiming at fulfilling the needs of growing aged population </li>
+                                <li hidden>Planned Outcome: [] </li>
+                                <li>Stage: PS </li>
+                              </ul>
+                            </p>
+          
+                            <div class="">
+                              <a href="#"
+                                ><button type="button" class="btn btn-primary" hidden>
+                                  Learn more
+                                </button></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+          
+          <div class="row my-5" id="MENTAL_HEALTH">
+                    <div class="col-8">
+                        <div class="card">
+                          <img
+                            src="/images/mental_health.png"
+                            class="card-img-top"
+                            alt="..." style="width: 50%;"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Online Mental Health</h5>
+                            <p class="card-text">
+                              <ul>
+                                <li>Domain: Healthcare </li>
+                                <li>Solution: Platform that effectively carries out the treatment of depression and burnouts in modern technological world </li>
+                                <li hidden>Planned Outcome: [] </li>
+                                <li>Stage: PS </li>
+                              </ul>
+                            </p>
+          
+                            <div class="">
+                              <a href="#"
+                                ><button type="button" class="btn btn-primary" hidden>
+                                  Learn more
+                                </button></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+
+
+          <div class="row my-5" id="HEALTH_MARKETPLACE">
+                    <div class="col-8">
+                        <div class="card">
+                          <img
+                            src="/images/health_marketplace.png"
+                            class="card-img-top"
+                            alt="..." style="width: 50%;"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Healthcare Marketplace </h5>
+                            <p class="card-text">
+                              <ul>
+                                <li>Domain: Healthcare </li>
+                                <li>Solution: Platform that matches niche medical provides with clients </li>
+                                <li hidden>Planned Outcome: [] </li>
+                                <li>Stage: PS </li>
+                              </ul>
+                            </p>
+          
+                            <div class="">
+                              <a href="#"
+                                ><button type="button" class="btn btn-primary" hidden>
+                                  Learn more
+                                </button></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+          
+          
+          
           <div class="row" id="ai_consumer"></div>     
 
           <div class="row">
@@ -250,39 +358,7 @@
           </div>
           </div>
 
-          <div class="row my-5">
-            <div class="col-8">
-                <div class="card">
-                  <img
-                    src="/images/ai+consumer.png"
-                    class="card-img-top"
-                    alt="..." style="width: 50%;"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">AI + Consumer</h5>
-                    <p class="card-text">
-                        <ul>
-                          <li>Domain: B2C CRM</li>
-                          <li>Solution: CRM with automated client-provider relationships </li>
-                          <li>Planned Outcome: up to 50% of certain processes in CRM automated by ML </li>
-                          <li>Stage: Prototype </li>
-                        </ul>
-                    </p>
-
-                    <div class="">
-                      <a href="#"
-                        ><button type="button" class="btn btn-primary" id="ai_sport">
-                          Learn more
-                        </button></a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-                
-              <div class="row my-5">
+          <div class="row my-5" id="SPORT">
                   <div class="col-8">
                       <div class="card">
                         <img
@@ -297,13 +373,13 @@
                               <li>Domain: Health/Sport </li>
                               <li>Solution: SAAS with AI agent planner </li>
                               <li>Planned Outcome: no need in personal couching online </li>
-                              <li>Stage: Product Strategy </li>
+                              <li>Stage: PS </li>
                             </ul>
                           </p>
         
                           <div class="">
                             <a href="#"
-                              ><button type="button" class="btn btn-primary" id="ai_war">
+                              ><button type="button" class="btn btn-primary" id="ai_war" hidden>
                                 Learn more
                               </button></a
                             >
@@ -311,45 +387,10 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+          </div>
   
 
-                  <div class="row">
-                    <div class="col">
-                    <h1>Our Products <span class="badge text-bg-primary" style="background-color: red;"> AI+WAR </span></h1>
-                  </div>
-                  </div>
-          
-                  <div class="row my-5">
-                    <div class="col-8">
-                        <div class="card">
-                          <img
-                            src="/images/ai+war.png"
-                            class="card-img-top"
-                            alt="..." style="width: 50%;"
-                          />
-                          <div class="card-body">
-                            <h5 class="card-title">AI + War</h5>
-                            <p class="card-text">
-                              <ul>
-                                <li>Domain: Fake news, social media </li>
-                                <li>Solution: Real-time detection and analysis of disinformation in social media </li>
-                                <li>Planned Outcome: Accurate scalable detection of major news threats or propaganda </li>
-                                <li>Stage: Prototype </li>
-                              </ul>
-                            </p>
-          
-                            <div class="">
-                              <a href="#"
-                                ><button type="button" class="btn btn-primary">
-                                  Learn more
-                                </button></a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
         
         
         
@@ -392,7 +433,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-6">
-              <form action="">
+              <form action="https://formspree.io/f/mrbqeggk" method="POST" id="form_reading">
                 <label for="email" class="form-label">Email:</label>
                 <input
                   type="email"
